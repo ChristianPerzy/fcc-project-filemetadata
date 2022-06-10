@@ -1,7 +1,7 @@
 var express = require('express');
 var cors = require('cors');
 let multer = require('multer');
-let fs = require('node:fs');
+let fs = require('fs');
 require('dotenv').config()
 
 var app = express();
